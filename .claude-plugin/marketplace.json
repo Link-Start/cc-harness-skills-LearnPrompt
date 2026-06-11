@@ -1,0 +1,16 @@
+{
+  "name": "cc-harness-skills",
+  "owner": { "name": "LearnPrompt", "url": "https://github.com/LearnPrompt" },
+  "metadata": { "description": "Marketplace hosting the CC Harness skill pack (6 portable agent skills)." },
+  "plugins": [
+    {
+      "name": "cc-harness",
+      "description": "Six portable harness skills distilled from a CC-style coding agent: dream-memory, memory-extractor, verification-gate, swarm-coordinator, structured-context-compressor, kairos-lite. The parts that separate a fun demo from a stable toolchain.",
+      "version": "0.2.0",
+      "author": { "name": "LearnPrompt", "url": "https://github.com/LearnPrompt" },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/LearnPrompt/cc-harness-skills"
+    }
+  ]
+}

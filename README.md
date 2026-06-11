@@ -1,5 +1,12 @@
 # CC Harness Skills
 
+> *"The parts that separate a fun demo from a stable toolchain: memory, compression, verification, routing, proactive jobs."*
+
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-6%20bundles-blueviolet)](#skill-pack)
+[![skills.sh](https://skills.sh/b/LearnPrompt/cc-harness-skills)](https://skills.sh/LearnPrompt/cc-harness-skills)
+[![Multi-Runtime](https://img.shields.io/badge/Runtime-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20OpenClaw-green)](#quick-start)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Portable agent skills distilled from a publicly mirrored `CC` coding-agent codebase, then rewritten so they can be installed in `Claude Code`, `Codex`, and `OpenClaw` without depending on private runtime internals.
 
 This repo is not a source dump. It is a cleaned skill pack:
@@ -75,7 +82,17 @@ Run the basic bundle checks first:
 bash ./skills/check_all.sh
 ```
 
-Install one skill into a host runtime:
+One-line install (any skills-compatible agent):
+
+```bash
+# all six skills
+npx skills add LearnPrompt/cc-harness-skills -g
+
+# or a single skill
+npx skills add LearnPrompt/cc-harness-skills -s verification-gate -g
+```
+
+Or copy one skill into a host runtime manually:
 
 ```bash
 mkdir -p ~/.claude/skills
