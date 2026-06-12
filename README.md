@@ -174,3 +174,20 @@ skills/
 ```
 
 Internal working notes and non-publishable local experiments still live under `.codex/skills/`, but the public release surface for this project is the root `skills/` directory.
+
+---
+
+<div align="center"><sub>
+
+**Made by [LearnPrompt](https://github.com/LearnPrompt)** · From the same workshop:
+[Luban · skill polishing](https://github.com/LearnPrompt/luban-skill) ·
+[Paoding · blogger distilling](https://github.com/LearnPrompt/paoding-skill) ·
+[Cailun · chat-to-page](https://github.com/LearnPrompt/cailun-skill) ·
+[Afu · LLM todo](https://github.com/LearnPrompt/afu-llm-todo) ·
+[AI News Radar · zero-API](https://github.com/LearnPrompt/ai-news-radar) ·
+[Humanize PPT](https://github.com/LearnPrompt/humanize-ppt) ·
+[CC Harness](https://github.com/LearnPrompt/cc-harness-skills)
+
+WeChat「卡尔的AI沃茨」 · [X @aiwarts](https://x.com/aiwarts) · [learnprompt.pro](https://www.learnprompt.pro)
+
+</sub></div>
